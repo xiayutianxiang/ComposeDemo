@@ -17,6 +17,11 @@
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.ComposeDemo">
+
+        </activity>
+
+        <activity android:name=".wechat.MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
